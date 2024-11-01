@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cinzel {
+    font-family: "Cinzel", serif;
+}
+
+.dark1 {
+    color: #151515;
+}
+
+.dark2 {
+    color: #444444;
+}
+
+.dark3 {
+    color: #737373;
+}
+
+.featured {
+    background-image: url('assets/home/featured.jpg');
+    background-position: center;
+}
+
+.activeNav a.active {
+    color: #ff4800;
+    font-size: large;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.dMenu a.active{
+    color: white;
+}
